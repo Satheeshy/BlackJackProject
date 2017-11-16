@@ -1,0 +1,41 @@
+﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <header>
+          
+      
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" ></asp:Menu>
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath><br />
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </header>
+        
+    </div>
+        
+         <div id="Footer">
+             <footer>
+                  <p>
+                      Copyright @ BlackJackUHCL.com
+                  </p>
+                  <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+        
+                  </asp:ContentPlaceHolder>
+             </footer>
+           
+        </div>
+    </form>
+</body>
+</html>

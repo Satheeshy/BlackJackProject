@@ -1,0 +1,40 @@
+﻿#LoginPagediv {
+    font-family:'Times New Roman', Times, serif;
+    color:yellowgreen;
+    text-align:center;
+    background-color:black;
+}
+body {
+    
+    background-image: url('../../Cards/light_sky_stars_background_85555_1920x1080.jpg');
+}
+#DeafalutPage,#UserProfile,#AddFunds,#Changepwd,#AdminPage,#Registration,#Bet{
+    text-align:center;
+    font:bold 16px arial,verdana;
+    color:yellow;
+}
+#AdminPageCp{
+    text-align:right;
+    color:white;
+    font:bold 12px arial,verdana;
+}
+#Menu1{
+    color:white;
+    font:bold 14px arial,verdana;
+
+}
+#SiteMapPath1{
+    color:white;
+    font:12px arial,verdana;
+}
+#Footer{
+    color:darkgreen;
+    text-align:right;
+    bottom:0;
+    position:absolute ;
+    }
+/*#AddFunds{
+    color:yellow;
+    text-align:center;
+    font:bold 12px arial,verdana;
+}*/
